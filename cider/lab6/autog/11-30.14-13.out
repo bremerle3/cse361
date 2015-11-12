@@ -1,0 +1,27 @@
+
+CS:APP Malloc Lab: Grading Sheet for mm-cider.c
+
+Part 1: Compiling the driver
+
+gcc -Wall -O2 -m32   -c -o mdriver.o mdriver.c
+mdriver.c: In function ‘remove_range’:
+mdriver.c:438:9: warning: variable ‘size’ set but not used [-Wunused-but-set-variable]
+     int size;
+         ^
+gcc -Wall -O2 -m32   -c -o mm.o mm.c
+mm.c: In function ‘place’:
+mm.c:147:10: warning: unused variable ‘p’ [-Wunused-variable]
+   char * p = (char *) bp;
+          ^
+gcc -Wall -O2 -m32   -c -o memlib.o memlib.c
+gcc -Wall -O2 -m32   -c -o fsecs.o fsecs.c
+gcc -Wall -O2 -m32   -c -o fcyc.o fcyc.c
+gcc -Wall -O2 -m32   -c -o clock.o clock.c
+gcc -Wall -O2 -m32   -c -o ftimer.o ftimer.c
+gcc -Wall -O2 -m32 -o mdriver mdriver.o mm.o memlib.o fsecs.o fcyc.o clock.o ftimer.o
+
+
+Part 2: Running the driver with the -g autograder option
+
+sh: line 1: 28447 Segmentation fault      (core dumped) ./mdriver -t /project/cec/class/cse361_fl14/traces/ -vg > results.txt
+grade-malloclab.pl: ERROR: Unable to run driver program. The files are in /tmp/mm-cider.c.28390.

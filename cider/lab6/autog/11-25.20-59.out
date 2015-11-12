@@ -1,0 +1,106 @@
+
+CS:APP Malloc Lab: Grading Sheet for mm-cider.c
+
+Part 1: Compiling the driver
+
+gcc -Wall -O2 -m32   -c -o mdriver.o mdriver.c
+mdriver.c: In function ‘remove_range’:
+mdriver.c:438:9: warning: variable ‘size’ set but not used [-Wunused-but-set-variable]
+     int size;
+         ^
+gcc -Wall -O2 -m32   -c -o mm.o mm.c
+mm.c: In function ‘find_fit’:
+mm.c:128:9: warning: unused variable ‘sp’ [-Wunused-variable]
+   char *sp = heapStart;                     //start at freeStart then check size and go up to next thing in bp if no fit
+         ^
+mm.c: In function ‘place’:
+mm.c:153:74: warning: assignment makes integer from pointer without a cast [enabled by default]
+       *(NEXT_BLKP(p)) = EoL;
+                                                                          ^
+mm.c:154:78: warning: assignment makes integer from pointer without a cast [enabled by default]
+       *(NEXT_BLKP(p) + WSIZE) = EoL;
+                                                                              ^
+mm.c:156:17: warning: comparison between pointer and integer [enabled by default]
+     else if (*p == EoL && *(p + WSIZE) == EoL){ //heap is perfectly filled
+                 ^
+mm.c:156:36: warning: comparison between pointer and integer [enabled by default]
+     else if (*p == EoL && *(p + WSIZE) == EoL){ //heap is perfectly filled
+                                    ^
+mm.c:159:17: warning: comparison between pointer and integer [enabled by default]
+     else if (*p == EoL){   //reassign end of list to prev free list item
+                 ^
+mm.c:160:7: error: invalid type argument of unary ‘*’ (have ‘int’)
+       *(*(p+WSIZE)) = *p;
+       ^
+mm.c:162:23: warning: comparison between pointer and integer [enabled by default]
+     else if (*(p + WSIZE) == EoL){  //reassign beginning of list
+                       ^
+mm.c:163:2: error: invalid type argument of unary ‘*’ (have ‘int’)
+  *(*p) = *p + WSIZE;
+  ^
+mm.c:166:7: error: invalid type argument of unary ‘*’ (have ‘int’)
+       *(*(p+WSIZE)) = *p
+       ^
+mm.c:167:8: error: lvalue required as left operand of assignment
+  *(*p) = *p + WSIZE;
+        ^
+mm.c:179:72: warning: assignment makes integer from pointer without a cast [enabled by default]
+     *(NEXT_BLKP(p)) = freeStart; //makes frag block point at start of previous free list
+                                                                        ^
+mm.c:180:74: warning: assignment makes integer from pointer without a cast [enabled by default]
+     *(NEXT_BLKP(p)+WSIZE) = EoL; // First element of free list back ptr always points to EoL
+                                                                          ^
+mm.c:184:50: warning: assignment makes integer from pointer without a cast [enabled by default]
+       PUT(GET(p),EoL);
+                                                  ^
+mm.c:185:52: warning: assignment makes integer from pointer without a cast [enabled by default]
+       PUT(GET(p+WSIZE), EoL);
+                                                    ^
+mm.c:187:37: warning: comparison between pointer and integer [enabled by default]
+     else if (GET(p) == EoL && GET(p + WSIZE) == EoL){
+                                     ^
+mm.c:187:74: warning: comparison between pointer and integer [enabled by default]
+     else if (GET(p) == EoL && GET(p + WSIZE) == EoL){
+                                                                          ^
+mm.c:188:50: warning: assignment makes integer from pointer without a cast [enabled by default]
+       PUT(GET(p),EoL); //Frag is now only thing in the list, replaces allocated which was only thing
+                                                  ^
+mm.c:189:52: warning: assignment makes integer from pointer without a cast [enabled by default]
+       PUT(GET(p+WSIZE), EoL);
+                                                    ^
+mm.c:191:37: warning: comparison between pointer and integer [enabled by default]
+     else if (GET(p) == EoL){   //reassign end of list to prev free list item
+                                     ^
+mm.c:194:41: warning: comparison between pointer and integer [enabled by default]
+     else if (GET(p + WSIZE) == EoL){  //reassign beginning of list
+                                         ^
+mm.c: In function ‘mm_malloc’:
+mm.c:206:29: error: expected declaration specifiers before numeric constant
+ void *mm_malloc(size_t size)3
+                             ^
+mm.c:238:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+mm.c:258:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+mm.c:269:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+mm.c:297:1: error: expected ‘{’ at end of input
+ }
+ ^
+mm.c: At top level:
+mm.c:73:14: warning: ‘mm_coalesce’ used but never defined [enabled by default]
+ static void *mm_coalesce(void *ptr);
+              ^
+mm.c: In function ‘find_fit’:
+mm.c:134:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+mm.c: In function ‘mm_malloc’:
+mm.c:297:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [mm.o] Error 1
+grade-malloclab.pl: ERROR: Unable to compile mdriver. The files are in /tmp/mm-cider.c.4009.

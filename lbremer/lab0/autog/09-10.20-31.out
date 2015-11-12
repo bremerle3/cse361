@@ -1,0 +1,19 @@
+Welcome to the Lab 0 Auto-grader.
+
+First, we're going to look for some required files....
+	Looking for: OrigFile.txt....   Found it!
+		OrigFile.txt is correct! +3 points
+	Looking for: betterName.txt....   Found it!
+		betterName.txt is not quite correct. Please re-read that portion carefully and try again.
+	Looking for: questions....   Found it!
+		questions is correct! +4 points
+	Looking for: code/task1....   Found it!
+		code/task1 is correct! +4 points
+	Looking for: code/task2....   Found it!
+		code/task2 is correct! +5 points
+	Looking for: code/task3....   Found it!
+		code/task3 is correct! +5 points
+	Looking for: code/task4....   Found it!
+		code/task4 is correct! +5 points
+Points Possible:	31
+Your Score:	26

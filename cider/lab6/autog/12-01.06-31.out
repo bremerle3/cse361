@@ -1,0 +1,48 @@
+
+CS:APP Malloc Lab: Grading Sheet for mm-cider.c
+
+Part 1: Compiling the driver
+
+gcc -Wall -O2 -m32   -c -o mdriver.o mdriver.c
+mdriver.c: In function ‘remove_range’:
+mdriver.c:438:9: warning: variable ‘size’ set but not used [-Wunused-but-set-variable]
+     int size;
+         ^
+gcc -Wall -O2 -m32   -c -o mm.o mm.c
+mm.c: In function ‘moveStart’:
+mm.c:99:24: error: ‘bp’ undeclared (first use in this function)
+     PUT(bp, EoL);        //puts EoL in forward pointer
+                        ^
+mm.c:99:24: note: each undeclared identifier is reported only once for each function it appears in
+mm.c: In function ‘fwdPointers’:
+mm.c:111:32: warning: comparison between pointer and integer [enabled by default]
+   if(2(GET(bp) == EoL) && (GET(bp + WSIZE) == EoL)){ //only thing in free list
+                                ^
+mm.c:111:7: error: called object is not a function or function pointer
+   if(2(GET(bp) == EoL) && (GET(bp + WSIZE) == EoL)){ //only thing in free list
+       ^
+mm.c:111:72: warning: comparison between pointer and integer [enabled by default]
+   if(2(GET(bp) == EoL) && (GET(bp + WSIZE) == EoL)){ //only thing in free list
+                                                                        ^
+mm.c:114:35: warning: comparison between pointer and integer [enabled by default]
+   else if(GET(bp) == EoL){ //at end of free list
+                                   ^
+mm.c:117:39: warning: comparison between pointer and integer [enabled by default]
+   else if(GET(bp + WSIZE) == EoL){ //at start of list
+                                       ^
+mm.c:119:3: error: expected ‘;’ before ‘}’ token
+   }
+   ^
+mm.c:123:3: error: expected ‘;’ before ‘}’ token
+   }
+   ^
+mm.c: In function ‘moveStart’:
+mm.c:107:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+mm.c: In function ‘fwdPointers’:
+mm.c:124:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [mm.o] Error 1
+grade-malloclab.pl: ERROR: Unable to compile mdriver. The files are in /tmp/mm-cider.c.24812.

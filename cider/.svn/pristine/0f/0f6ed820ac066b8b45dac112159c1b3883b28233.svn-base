@@ -1,0 +1,21 @@
+
+CS:APP Malloc Lab: Grading Sheet for mm-cider.c
+
+Part 1: Compiling the driver
+
+gcc -Wall -O2 -m32   -c -o mdriver.o mdriver.c
+mdriver.c: In function ‘remove_range’:
+mdriver.c:438:9: warning: variable ‘size’ set but not used [-Wunused-but-set-variable]
+     int size;
+         ^
+gcc -Wall -O2 -m32   -c -o mm.o mm.c
+mm.c: In function ‘mm_init’:
+mm.c:52:6: error: ‘true’ undeclared (first use in this function)
+   if(true) return -1;
+      ^
+mm.c:52:6: note: each undeclared identifier is reported only once for each function it appears in
+mm.c:54:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [mm.o] Error 1
+grade-malloclab.pl: ERROR: Unable to compile mdriver. The files are in /tmp/mm-cider.c.25746.

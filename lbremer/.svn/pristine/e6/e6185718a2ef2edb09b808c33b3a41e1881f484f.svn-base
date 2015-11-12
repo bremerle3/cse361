@@ -1,0 +1,7 @@
+For homework 1, the way to invoke the auto grader is to modify THIS file
+before you do an svn commit.
+The auto-grader checks to see if this file has changed, and if it has, THEN
+it checks out all your code and runs the grader.
+What to modify? Delete one of these x's: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(the fact that you have this file does not mean that the auto-grader is live,
+but it is a good sign that it will be soon!)

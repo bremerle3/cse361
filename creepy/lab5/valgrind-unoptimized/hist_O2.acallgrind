@@ -1,0 +1,126 @@
+--------------------------------------------------------------------------------
+Profile data file 'hist_O2.callgrind' (creator: callgrind-3.8.1)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 48949
+Trigger: Program termination
+Profiled target:  ./hist (PID 1869, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+     Ir 
+--------------------------------------------------------------------------------
+231,501  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+    Ir  file:function
+--------------------------------------------------------------------------------
+68,296  /usr/src/debug/glibc-2.17-c758a686/elf/dl-addr.c:_dl_addr [/usr/lib/libc-2.17.so]
+26,514  /usr/src/debug/glibc-2.17-c758a686/elf/dl-lookup.c:do_lookup_x [/usr/lib/ld-2.17.so]
+20,436  /usr/src/debug/glibc-2.17-c758a686/elf/dl-lookup.c:_dl_lookup_symbol_x [/usr/lib/ld-2.17.so]
+11,351  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/i686/strcmp.S:strcmp [/usr/lib/ld-2.17.so]
+ 8,711  /usr/src/debug/glibc-2.17-c758a686/elf/../sysdeps/i386/dl-machine.h:_dl_relocate_object
+ 7,303  /usr/src/debug/glibc-2.17-c758a686/stdio-common/vfprintf.c:vfprintf [/usr/lib/libc-2.17.so]
+ 6,025  /usr/src/debug/glibc-2.17-c758a686/elf/dl-lookup.c:check_match.9254 [/usr/lib/ld-2.17.so]
+ 5,036  /usr/src/debug/glibc-2.17-c758a686/libio/fileops.c:_IO_file_xsputn@@GLIBC_2.1 [/usr/lib/libc-2.17.so]
+ 4,953  /usr/src/debug/glibc-2.17-c758a686/libio/fileops.c:_IO_file_overflow@@GLIBC_2.1 [/usr/lib/libc-2.17.so]
+ 4,662  /usr/src/debug/glibc-2.17-c758a686/libio/putchar.c:putchar [/usr/lib/libc-2.17.so]
+ 3,409  /usr/src/debug/glibc-2.17-c758a686/stdlib/bsearch.c:bsearch [/usr/lib/libc-2.17.so]
+ 3,110  ???:compute_totals [/home/warehouse/john.emmons/creepy/lab5/hist]
+ 2,993  /usr/src/debug/glibc-2.17-c758a686/elf/do-rel.h:_dl_relocate_object
+ 2,660  /usr/src/debug/glibc-2.17-c758a686/elf/dl-minimal.c:strsep [/usr/lib/ld-2.17.so]
+ 2,554  ???:compute_histogram [/home/warehouse/john.emmons/creepy/lab5/hist]
+ 2,109  /usr/src/debug/glibc-2.17-c758a686/libio/genops.c:__overflow [/usr/lib/libc-2.17.so]
+ 1,816  /usr/src/debug/glibc-2.17-c758a686/gmon/gmon.c:write_gmon [/usr/lib/libc-2.17.so]
+ 1,810  /usr/src/debug/glibc-2.17-c758a686/elf/dl-hwcaps.c:_dl_important_hwcaps [/usr/lib/ld-2.17.so]
+ 1,690  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/strchrnul.S:strchrnul [/usr/lib/libc-2.17.so]
+ 1,672  /usr/src/debug/glibc-2.17-c758a686/elf/dl-cache.c:_dl_cache_libcmp [/usr/lib/ld-2.17.so]
+ 1,659  /usr/src/debug/glibc-2.17-c758a686/elf/dl-misc.c:_dl_name_match_p [/usr/lib/ld-2.17.so]
+ 1,612  /usr/src/debug/glibc-2.17-c758a686/elf/dl-version.c:_dl_check_map_versions [/usr/lib/ld-2.17.so]
+ 1,561  /usr/src/debug/glibc-2.17-c758a686/string/../sysdeps/x86_64/cacheinfo.c:intel_02_known_compare [/usr/lib/libc-2.17.so]
+ 1,368  /usr/src/debug/glibc-2.17-c758a686/stdio-common/_itoa.c:_itoa_word [/usr/lib/libc-2.17.so]
+ 1,348  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/i586/strlen.S:strlen [/usr/lib/ld-2.17.so]
+ 1,300  /usr/src/debug/glibc-2.17-c758a686/elf/dl-load.c:_dl_map_object_from_fd [/usr/lib/ld-2.17.so]
+ 1,238  /usr/src/debug/glibc-2.17-c758a686/elf/dl-load.c:open_path [/usr/lib/ld-2.17.so]
+ 1,211  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/i586/strchr.S:index [/usr/lib/ld-2.17.so]
+ 1,196  /usr/src/debug/glibc-2.17-c758a686/elf/dl-deps.c:_dl_map_object_deps [/usr/lib/ld-2.17.so]
+ 1,172  ???:compute_grades [/home/warehouse/john.emmons/creepy/lab5/hist]
+ 1,164  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/i686/multiarch/strcat.S:0x446b8bc5 [/usr/lib/libc-2.17.so]
+ 1,118  /usr/src/debug/glibc-2.17-c758a686/elf/dl-load.c:_dl_init_paths [/usr/lib/ld-2.17.so]
+ 1,110  /usr/src/debug/glibc-2.17-c758a686/libio/libioP.h:putchar
+ 1,074  /usr/src/debug////////glibc-2.17-c758a686/elf/../sysdeps/i386/dl-tlsdesc.S:0x44578118 [/usr/lib/ld-2.17.so]
+ 1,060  /usr/src/debug/glibc-2.17-c758a686/string/../sysdeps/x86_64/cacheinfo.c:intel_check_word [/usr/lib/libc-2.17.so]
+ 1,047  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/i686/mempcpy.S:__GI_mempcpy [/usr/lib/libc-2.17.so]
+   976  /usr/src/debug/glibc-2.17-c758a686/elf/rtld.c:dl_main [/usr/lib/ld-2.17.so]
+   921  /usr/src/debug/glibc-2.17-c758a686/elf/dl-reloc.c:_dl_relocate_object [/usr/lib/ld-2.17.so]
+   877  /usr/src/debug/glibc-2.17-c758a686/elf/dl-load.c:open_verify [/usr/lib/ld-2.17.so]
+   805  /usr/src/debug/glibc-2.17-c758a686/elf/dl-minimal.c:__libc_memalign [/usr/lib/ld-2.17.so]
+   793  /usr/src/debug/glibc-2.17-c758a686/malloc/malloc.c:malloc_consolidate [/usr/lib/libc-2.17.so]
+   782  /usr/src/debug/glibc-2.17-c758a686/libio/fileops.c:_IO_do_write@@GLIBC_2.1 [/usr/lib/libc-2.17.so]
+   756  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/i686/mempcpy.S:mempcpy [/usr/lib/ld-2.17.so]
+   730  /usr/src/debug/glibc-2.17-c758a686/elf/dl-runtime.c:_dl_fixup [/usr/lib/ld-2.17.so]
+   721  ???:main [/home/warehouse/john.emmons/creepy/lab5/hist]
+   673  /usr/src/debug/glibc-2.17-c758a686/elf/../elf/dl-sysdep.c:_dl_sysdep_start [/usr/lib/ld-2.17.so]
+   653  /usr/src/debug/glibc-2.17-c758a686/malloc/arena.c:ptmalloc_init.part.7 [/usr/lib/libc-2.17.so]
+   624  /usr/src/debug/glibc-2.17-c758a686/libio/fileops.c:_IO_file_write@@GLIBC_2.1 [/usr/lib/libc-2.17.so]
+   602  /usr/src/debug/glibc-2.17-c758a686/elf/dl-object.c:_dl_new_object [/usr/lib/ld-2.17.so]
+   591  /usr/src/debug/glibc-2.17-c758a686/elf/dl-environ.c:_dl_next_ld_env_entry [/usr/lib/ld-2.17.so]
+   590  /usr/src/debug/glibc-2.17-c758a686/stdlib/getenv.c:getenv [/usr/lib/libc-2.17.so]
+   566  /usr/src/debug/glibc-2.17-c758a686/elf/get-dynamic-info.h:_dl_map_object_from_fd
+   566  /usr/src/debug/glibc-2.17-c758a686/malloc/malloc.c:free [/usr/lib/libc-2.17.so]
+   541  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/i686/memcmp.S:bcmp [/usr/lib/ld-2.17.so]
+   489  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/i686/memset.S:__GI_memset [/usr/lib/libc-2.17.so]
+   436  /usr/src/debug/glibc-2.17-c758a686/elf/dl-load.c:_dl_map_object [/usr/lib/ld-2.17.so]
+   429  /usr/src/debug/glibc-2.17-c758a686/elf/dl-load.c:fillin_rpath [/usr/lib/ld-2.17.so]
+   395  /usr/src/debug/glibc-2.17-c758a686/elf/dl-cache.c:_dl_load_cache_lookup [/usr/lib/ld-2.17.so]
+   380  /usr/src/debug/glibc-2.17-c758a686/stdio-common/printf-parse.h:read_int [/usr/lib/libc-2.17.so]
+   368  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/i686/memcpy.S:memcpy [/usr/lib/ld-2.17.so]
+   352  /usr/src/debug/glibc-2.17-c758a686/elf/dl-tls.c:_dl_allocate_tls_storage [/usr/lib/ld-2.17.so]
+   343  /usr/src/debug/glibc-2.17-c758a686/elf/dl-version.c:match_symbol [/usr/lib/ld-2.17.so]
+   286  /usr/src/debug/glibc-2.17-c758a686/elf/dl-fini.c:_dl_fini [/usr/lib/ld-2.17.so]
+   273  /usr/src/debug////////glibc-2.17-c758a686/string/../sysdeps/i386/i686/memset.S:memset [/usr/lib/ld-2.17.so]
+   273  /usr/src/debug/glibc-2.17-c758a686/malloc/malloc.c:_int_malloc [/usr/lib/libc-2.17.so]
+   270  /usr/src/debug////////glibc-2.17-c758a686/io/../sysdeps/unix/syscall-template.S:open [/usr/lib/ld-2.17.so]
+   250  /usr/src/debug/glibc-2.17-c758a686/io/../sysdeps/unix/sysv/linux/xstat64.c:__xstat64 [/usr/lib/ld-2.17.so]
+   237  /usr/src/debug/glibc-2.17-c758a686/elf/get-dynamic-info.h:_dl_start
+   231  /usr/src/debug/glibc-2.17-c758a686/elf/dl-minimal.c:malloc [/usr/lib/ld-2.17.so]
+   230  /usr/src/debug/glibc-2.17-c758a686/signal/../sysdeps/unix/sysv/linux/i386/sigaction.c:__libc_sigaction [/usr/lib/libc-2.17.so]
+   225  /usr/src/debug/glibc-2.17-c758a686/stdio-common/printf.c:printf [/usr/lib/libc-2.17.so]
+   215  /usr/src/debug/glibc-2.17-c758a686/elf/dl-init.c:_dl_init [/usr/lib/ld-2.17.so]
+   214  /usr/src/debug/glibc-2.17-c758a686/elf/dl-fini.c:_dl_sort_fini [/usr/lib/ld-2.17.so]
+   207  /usr/src/debug////////glibc-2.17-c758a686/misc/../sysdeps/unix/sysv/linux/i386/mmap.S:mmap [/usr/lib/ld-2.17.so]
+   201  /usr/src/debug/glibc-2.17-c758a686/elf/get-dynamic-info.h:dl_main
+   191  /usr/src/debug/glibc-2.17-c758a686/string/../sysdeps/x86_64/cacheinfo.c:handle_intel.isra.0 [/usr/lib/libc-2.17.so]
+   170  /usr/src/debug////////glibc-2.17-c758a686/io/../sysdeps/unix/syscall-template.S:__write_nocancel [/usr/lib/libc-2.17.so]
+   168  /usr/src/debug/glibc-2.17-c758a686/elf/dl-minimal.c:calloc [/usr/lib/ld-2.17.so]
+   165  /usr/src/debug/glibc-2.17-c758a686/stdio-common/printf-parse.h:vfprintf
+   133  /usr/src/debug/glibc-2.17-c758a686/elf/dl-object.c:_dl_add_to_namespace_list [/usr/lib/ld-2.17.so]
+   132  /usr/src/debug/glibc-2.17-c758a686/elf/rtld.c:_dl_start [/usr/lib/ld-2.17.so]
+   125  /usr/src/debug/glibc-2.17-c758a686/gmon/../sysdeps/posix/profil.c:profil [/usr/lib/libc-2.17.so]
+   124  /usr/src/debug/glibc-2.17-c758a686/string/../sysdeps/x86_64/cacheinfo.c:init_cacheinfo [/usr/lib/libc-2.17.so]
+   117  /usr/src/debug/glibc-2.17-c758a686/elf/dl-error.c:_dl_catch_error [/usr/lib/ld-2.17.so]
+   111  /usr/src/debug/glibc-2.17-c758a686/libio/iopadn.c:_IO_padn [/usr/lib/libc-2.17.so]
+   110  /usr/src/debug/glibc-2.17-c758a686/malloc/malloc.c:_int_free [/usr/lib/libc-2.17.so]
+   108  /usr/src/debug/glibc-2.17-c758a686/elf/dl-lookup.c:_dl_setup_hash [/usr/lib/ld-2.17.so]
+   104  /usr/src/debug/glibc-2.17-c758a686/gmon/mcount.c:__mcount_internal [/usr/lib/libc-2.17.so]
+   103  /usr/src/debug/glibc-2.17-c758a686/libio/genops.c:_IO_cleanup [/usr/lib/libc-2.17.so]
+   100  /usr/src/debug/glibc-2.17-c758a686/stdlib/cxa_atexit.c:__new_exitfn [/usr/lib/libc-2.17.so]
+    99  /usr/src/debug////////glibc-2.17-c758a686/elf/../sysdeps/i386/dl-trampoline.S:_dl_runtime_resolve [/usr/lib/ld-2.17.so]
+    88  /usr/src/debug/glibc-2.17-c758a686/libio/genops.c:_IO_flush_all_lockp [/usr/lib/libc-2.17.so]
+    88  /usr/src/debug/glibc-2.17-c758a686/elf/dl-tls.c:_dl_allocate_tls_init [/usr/lib/ld-2.17.so]
+    83  /usr/src/debug/glibc-2.17-c758a686/elf/rtld.c:init_tls [/usr/lib/ld-2.17.so]
+    81  /usr/src/debug/glibc-2.17-c758a686/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c:_dl_discover_osversion [/usr/lib/ld-2.17.so]
+    78  /usr/src/debug/glibc-2.17-c758a686/stdlib/exit.c:__run_exit_handlers [/usr/lib/libc-2.17.so]
+    77  /usr/src/debug/glibc-2.17-c758a686/elf/dl-version.c:_dl_check_all_versions [/usr/lib/ld-2.17.so]
+    75  /usr/src/debug/glibc-2.17-c758a686/gmon/gmon.c:monstartup [/usr/lib/libc-2.17.so]
+    72  /usr/src/debug/glibc-2.17-c758a686/elf/dl-tls.c:_dl_determine_tlsoffset [/usr/lib/ld-2.17.so]
+    68  /usr/src/debug/glibc-2.17-c758a686/libio/genops.c:_IO_default_xsputn [/usr/lib/libc-2.17.so]
+

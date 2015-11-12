@@ -1,0 +1,3961 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\fswiss\fprq2\fcharset0 Liberation Sans{\*\falt Arial};}{\f5\froman\fprq0\fcharset1 Times New Roman;}{\f6\froman\fprq0\fcharset1 Liberation Serif{\*\falt Times New Roman};}{\f7\froman\fprq2\fcharset1 Times New Roman;}{\f8\fswiss\fprq2\fcharset1 Times New Roman;}{\f9\fswiss\fprq0\fcharset1 Times New Roman;}{\f10\froman\fprq0\fcharset1 Meiryo;}{\f11\froman\fprq0\fcharset1 Courier New;}{\f12\froman\fprq0\fcharset1 Arial;}{\f13\fnil\fprq2\fcharset0 WenQuanYi Zen Hei Sharp;}{\f14\fnil\fprq2\fcharset0 Lohit Devanagari;}{\f15\fnil\fprq0\fcharset1 Lohit Devanagari;}{\f16\fnil\fprq0\fcharset1 Times New Roman;}{\f17\fnil\fprq0\fcharset1 Courier New;}{\f18\fnil\fprq2\fcharset1 Times New Roman;}{\f19\fnil\fprq0\fcharset1 Arial;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red255\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+{\stylesheet{\s0\snext0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033 Normal;}
+{\s1\sbasedon21\snext22\ilvl0\outlinelevel0\ql\nowidctlpar\faauto\li550\ri0\lin550\rin0\fi-430\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs28\alang1033\ab\loch\f4\fs28\lang1033 Heading 1;}
+{\s2\sbasedon21\snext22\ilvl1\outlinelevel1\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi-538\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs24\alang1033\ab\loch\f4\fs24\lang1033 Heading 2;}
+{\s3\sbasedon21\snext22\ilvl2\outlinelevel2\ql\nowidctlpar\faauto\li120\ri0\lin120\rin0\fi0\sb32\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs22\alang1033\ab\loch\f4\fs22\lang1033 Heading 3;}
+{\*\cs15\snext15 Default Paragraph Font;}
+{\*\cs16\sbasedon15\snext16\b\kerning1\afs32\ab\loch\f5\fs32 Heading 1 Char;}
+{\*\cs17\sbasedon15\snext17\i\b\afs28\ai\ab\loch\f5\fs28 Heading 2 Char;}
+{\*\cs18\sbasedon15\snext18\b\afs26\ab\loch\f5\fs26 Heading 3 Char;}
+{\*\cs19\sbasedon15\snext19\dbch\af16\afs24\fs24 Body Text Char;}
+{\*\cs20\snext20\loch\f6 ListLabel 1;}
+{\s21\sbasedon0\snext22\sb240\sa120\keepn\dbch\af13\dbch\af14\afs28\loch\f4\fs28 Heading;}
+{\s22\sbasedon0\snext22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033 Text Body;}
+{\s23\sbasedon22\snext23\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af15\afs22\alang1033\fs22\lang1033 List;}
+{\s24\sbasedon0\snext24\sb120\sa120\noline\i\dbch\af15\afs24\ai\fs24 Caption;}
+{\s25\sbasedon0\snext25\noline\dbch\af15 Index;}
+{\s26\snext26\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\langfe1033\dbch\af16\afs24\alang1033\cf0\kerning1\dbch\af13\fs24\lang1033\loch\f3 List Paragraph;}
+{\s27\snext27\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\langfe1033\dbch\af16\afs24\alang1033\cf0\kerning1\dbch\af13\fs24\lang1033\loch\f3 Table Paragraph;}
+{\s28\sbasedon0\snext28\tqc\tx4790\tqr\tx9580\noline Footer;}
+{\s29\sbasedon0\snext29 Frame Contents;}
+}{\*\listtable{\list\listtemplateid1
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-432\li432}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-576\li576}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-720\li720}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-864\li864}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-1008\li1008}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-1152\li1152}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-1296\li1296}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-1440\li1440}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-1584\li1584}\listid1}
+{\list\listtemplateid2
+{\listlevel\levelnfc0\leveljc0\levelstartat3\levelfollow0{\leveltext \'01\'00;}{\levelnumbers\'01;}\fi-360\li720}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'03\'00.\'01;}{\levelnumbers\'01\'03;}\fi-360\li1080}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li1800}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li2520}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li3240}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li3600}\listid2}
+{\list\listtemplateid3
+{\listlevel\levelnfc0\leveljc0\levelstartat2\levelfollow0{\leveltext \'01\'00;}{\levelnumbers\'01;}\fi-360\li720}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'03\'00.\'01;}{\levelnumbers\'01\'03;}\fi-360\li1080}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li1800}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li2520}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li3240}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li3600}\listid3}
+{\list\listtemplateid4
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\'00;}{\levelnumbers\'01;}\fi-360\li720}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f21\fi-360\li1080}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li1800}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li2520}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li3240}
+{\listlevel\levelnfc23\leveljc0\levelstartat0\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f20\fi-360\li3600}\listid4}
+}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}{\info{\creatim\yr2013\mo9\dy8\hr19\min47}{\revtim\yr2014\mo9\dy14\hr12\min14}{\printim\yr0\mo0\dy0\hr0\min0}{\comment LibreOffice}{\vern67175938}}\deftab720\deftab720\deftab720
+\viewscale160
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn12240\pghsxn15840\marglsxn1340\margrsxn1320\margtsxn1420\margbsxn280\pgdscnxt0 Default Style;}
+{\pgdsc1\pgdscuse451\pgndec\pgwsxn12240\pghsxn15840\marglsxn1320\margrsxn1320\margtsxn1360\margbsxn1720\footery1530{\footer{\shp{\*\shpinst\shptop14090\shpbottom14349\shpleft6025\shpright6215\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 4278190079}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineWidth}{\sv 0}}{\shptxt\s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl-235\slmult0\ql\nowidctlpar\faauto\li40\ri0\lin40\rin0\fi0{\loch\f6\loch\f6\loch\f6\loch\f6\rtlch \ltrch
+{\field{\*\fldinst  PAGE }{\fldrslt 2}}}
+\par \pard}}}
+\pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl12\slmult1\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\langfe1033\dbch\af16\afs20\alang1033\rtlch \ltrch\loch\fs20\lang1033\loch\f5
+
+\par }\pgdscnxt1 Converted1;}
+{\pgdsc2\pgdscuse451\pgndec\pgwsxn12240\pghsxn15840\marglsxn1320\margrsxn200\margtsxn1400\margbsxn1720\footery1530{\footer\pard\plain \s28\tqc\tx4790\tqr\tx9580\noline\rtlch \ltrch\loch
+
+\par }\pgdscnxt2 Converted2;}
+{\pgdsc3\pgdscuse451\pgndec\pgwsxn12240\pghsxn15840\marglsxn1320\margrsxn200\margtsxn1400\margbsxn1720\footery1530{\footer\pard\plain \s28\tqc\tx4790\tqr\tx9580\noline\rtlch \ltrch\loch
+
+\par }\pgdscnxt3 Converted3;}
+{\pgdsc4\pgdscuse451\pgndec\pgwsxn12240\pghsxn15840\marglsxn1320\margrsxn200\margtsxn1400\margbsxn1720\footery1530{\footer\pard\plain \s28\tqc\tx4790\tqr\tx9580\noline\rtlch \ltrch\loch
+
+\par }\pgdscnxt4 Converted4;}}
+\formshade\paperh15840\paperw12240\margl1340\margr1320\margt1420\margb280\sectd\sbknone\sectunlocked1\pgndec\pgwsxn12240\pghsxn15840\marglsxn1340\margrsxn1320\margtsxn1420\margbsxn280\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+\pgndec\pard\plain \s3\ilvl2\outlinelevel2\ql\nowidctlpar\faauto\li120\ri0\lin120\rin0\fi0\sb32\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs22\alang1033\ab\loch\f4\fs22\lang1033{\listtext\pard\plain \tab}\ls1 \li1032\ri0\lin1032\rin0\fi-720\li312\ri0\lin312\rin0\fi0\sb32\sa120{\rtlch \ltrch\loch\loch\f5
+CSE}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+241}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Algorithms}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Data}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Structures}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-210\slmult0\li0\ri0\lin0\rin0\fi0\afs21\rtlch \ltrch\loch\fs21\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\qc\li0\ri91\lin0\rin91\fi0{\afs28\rtlch \ltrch\loch\fs28\loch\f5
+Lab}{\expnd2\expndtw13\afs28\rtlch \ltrch\loch\fs28\loch\f5
+ }{\afs28\rtlch \ltrch\loch\fs28\loch\f5
+1:}{\expnd6\expndtw34\afs28\rtlch \ltrch\loch\fs28\loch\f5
+ }{\afs28\rtlch \ltrch\loch\fs28\loch\f5
+Closest}{\expnd2\expndtw13\afs28\rtlch \ltrch\loch\fs28\loch\f5
+ }{\expnd0\expndtw-1\afs28\rtlch \ltrch\loch\fs28\loch\f5
+Pairs}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\qc\tx6527\li0\ri20\lin0\rin20\fi0{\i\ai\rtlch \ltrch\loch\loch\f5
+Assigned:}{\expnd2\expndtw11\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+Sept 8,}{\expnd0\expndtw-1\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+201                                                                       Due}{\expnd-1\expndtw-7\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+Date:}{\expnd1\expndtw6\i\ai\rtlch \ltrch\loch\loch\f5
+ Wednesday, }{\i\ai\rtlch \ltrch\loch\loch\f5
+Oct 1,}{\expnd-1\expndtw-6\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+2014}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-190\slmult0\li0\ri0\lin0\rin0\fi0\afs19\rtlch \ltrch\loch\fs19\loch\f5
+
+\par \pard\plain \s3\ilvl2\outlinelevel2\ql\nowidctlpar\faauto\li120\ri0\lin120\rin0\fi0\sb32\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs22\alang1033\ab\loch\f4\fs22\lang1033{\listtext\pard\plain \tab}\ls1 \li810\ri0\lin810\rin0\fi-720\li90\ri0\lin90\rin0\fi0{\cf2\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+Note:}{\cf3\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ We will only accept electronic signature page from all 3 labs.  Save the first page (this page) to }{\cf2\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+lab1signed.doc}{\cf3\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+, enter all required information as you would put on a paper version of this file, and upload it to your svn repository along with the other files for the lab.  Here, you type in your name as your signature.  }{\cf2\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+Failure to include this signing page in your submission will make your submission incomplete and you get no credit for the lab.}
+\par \pard\plain \s3\ilvl2\outlinelevel2\ql\nowidctlpar\faauto\li120\ri0\lin120\rin0\fi0\sb32\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs22\alang1033\ab\loch\f4\fs22\lang1033{\listtext\pard\plain \tab}\ls1 \li810\ri0\lin810\rin0\fi-720\li90\ri0\lin90\rin0\fi0\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f9
+
+\par \pard\plain \s3\ilvl2\outlinelevel2\ql\nowidctlpar\faauto\li120\ri0\lin120\rin0\fi0\sb32\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs22\alang1033\ab\loch\f4\fs22\lang1033{\listtext\pard\plain \tab}\ls1 \li810\ri0\lin810\rin0\fi-720\li90\ri0\lin90\rin0\fi0{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+You}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+must}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+read}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sign}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+following}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+statement}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+get}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+credit}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+for}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+assignment:}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li100\ri119\lin100\rin119\fi338\sb45\sa0{\rtlch \ltrch\loch\loch\f5
+I}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+have}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+read}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+understood}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+CSE}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+241}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+collaboration}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+policy}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+posted}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+course}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+web}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+site.}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+I}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+understand}{\expnd5\expndtw26\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+these}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+rules}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+govern}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+homeworks,}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+labs,}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+exams}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+assigned}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+class,}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+violations}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+are}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+subject}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd5\expndtw27\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+severe}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+penalties.}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+I}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+have}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+neither}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+violated}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+collaboration}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+policy}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+nor}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+helped}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+others}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+violate}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+it}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+completing}{\expnd5\expndtw28\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+assignment.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-180\slmult0\li0\ri0\lin0\rin0\fi0\sb7\sa0\afs18\rtlch \ltrch\loch\fs18\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-220\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-220\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-220\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s2\ilvl1\outlinelevel1\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi-538\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs24\alang1033\ab\loch\f4\fs24\lang1033{\listtext\pard\plain \tab}\ls1 \li676\ri0\lin676\rin0\fi-576\li100\ri0\lin100\rin0\fi0{\rtlch \ltrch\loch\loch\f5
+Name:  }{\rtlch \ltrch\loch\loch\f5
+Leo Bremer}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-160\slmult0\li0\ri0\lin0\rin0\fi0\sb6\sa0\afs16\rtlch \ltrch\loch\fs16\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\li0\ri0\lin0\rin0\fi0{\rtlch \ltrch\loch\loch\f5
+Collaborators:  }{\rtlch \ltrch\loch\loch\f5
+Jordan Helderman}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-340\slmult0\li0\ri0\lin0\rin0\fi0\sb18\sa0\afs34\rtlch \ltrch\loch\fs34\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\li0\ri0\lin0\rin0\fi0{\rtlch \ltrch\loch\loch\f5
+Signed:  }{\rtlch \ltrch\loch\loch\f5
+Leo Bremer}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-160\slmult0\li0\ri0\lin0\rin0\fi0\sb6\sa0\afs16\rtlch \ltrch\loch\fs16\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\li0\ri0\lin0\rin0\fi0{\rtlch \ltrch\loch\loch\f5
+Date:  }{\rtlch \ltrch\loch\loch\f5
+10/2/2014}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-240\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-260\slmult0\li0\ri0\lin0\rin0\fi0\sb2\sa0\afs26\rtlch \ltrch\loch\fs26\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\li0\ri0\lin0\rin0\fi0{\rtlch \ltrch\loch\loch\f5
+Number}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+late}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+days: }{\rtlch \ltrch\loch\loch\f5
+1}
+\par \pard\plain \s1\ilvl0\outlinelevel0\ql\nowidctlpar\faauto\li550\ri0\lin550\rin0\fi-430\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs28\alang1033\ab\loch\f4\fs28\lang1033{\listtext\pard\plain \loch\f6 1\tab}\ilvl0\ls4 \li1270\ri0\lin1270\rin0\fi-360\qj\tx1101\li550\ri0\lin550\rin0\fi0\sb37\sa120\ltrpar{{\*\bkmkstart Overview}{\*\bkmkend Overview}\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Overview}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-250\slmult0\li0\ri0\lin0\rin0\fi0\sb8\sa0\afs25\rtlch \ltrch\loch\fs25\loch\f5
+
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\qj\li120\ri0\lin120\rin0\fi0{\rtlch \ltrch\loch\loch\f5
+This}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+lab}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+has}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+several}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+goals:}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-220\slmult0\li0\ri0\lin0\rin0\fi0\sb3\sa0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033{\listtext\pard\plain \loch\f6 \u8226\'95\tab}\ilvl1\ls4 \li1745\ri0\lin1745\rin0\fi-360\tx1331\li665\ri0\lin665\rin0\fi-218{\rtlch \ltrch\loch\loch\f5
+Ensure}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+understand}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+closest-pair}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithms}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+studied}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+class.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033{\listtext\pard\plain \loch\f6 \u8226\'95\tab}\ilvl1\ls4 \li1745\ri0\lin1745\rin0\fi-360\tx1331\li665\ri0\lin665\rin0\fi-218\sb223\sa0{\rtlch \ltrch\loch\loch\f5
+Ensure}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+understand}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+at}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+least}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+one}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorting}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithms.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033{\listtext\pard\plain \loch\f6 \u8226\'95\tab}\ilvl1\ls4 \li1745\ri119\lin1745\rin119\fi-360\sl280\slmult1\tx1331\li665\ri119\lin665\rin119\fi-218\sb223\sa0{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+Give}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+first-hand}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+understanding}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+practical}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+benefits}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+nontrivial}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+design,}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+particular}{\expnd5\expndtw29\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-3\expndtw-18\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide-and-conquer}{\expnd-3\expndtw-17\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+methodology.}
+\par \pard\plain \s3\ilvl2\outlinelevel2\ql\nowidctlpar\faauto\li120\ri0\lin120\rin0\fi0\sb32\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs22\alang1033\ab\loch\f4\fs22\lang1033{\listtext\pard\plain \tab}\ls1 \li840\ri0\lin840\rin0\fi-720\qj\li120\ri0\lin120\rin0\fi0{\rtlch \ltrch\loch\loch\f5
+Please}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+start}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+early}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+so}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+get}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+help}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+need}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+it!}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-200\slmult0\li0\ri0\lin0\rin0\fi0\afs20\rtlch \ltrch\loch\fs20\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-220\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033{\listtext\pard\plain \loch\f6 2\tab}\ilvl0\ls4 \li1270\ri0\lin1270\rin0\fi-360\sl-220\slmult0\qj\tx1101\li550\ri0\lin550\rin0\fi-430{{\*\bkmkstart What to Implement and Submit}{\*\bkmkend What to Implement and Submit}\afs28\rtlch \ltrch\loch\fs28\loch\f5
+What}{\expnd3\expndtw18\afs28\rtlch \ltrch\loch\fs28\loch\f5
+ }{\afs28\rtlch \ltrch\loch\fs28\loch\f5
+to}{\expnd3\expndtw19\afs28\rtlch \ltrch\loch\fs28\loch\f5
+ }{\afs28\rtlch \ltrch\loch\fs28\loch\f5
+Implement}{\expnd3\expndtw18\afs28\rtlch \ltrch\loch\fs28\loch\f5
+ }{\afs28\rtlch \ltrch\loch\fs28\loch\f5
+and}{\expnd3\expndtw19\afs28\rtlch \ltrch\loch\fs28\loch\f5
+ }{\afs28\rtlch \ltrch\loch\fs28\loch\f5
+Submit}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-250\slmult0\li0\ri0\lin0\rin0\fi0\afs25\rtlch \ltrch\loch\fs25\loch\f5
+
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl276\slmult1\qj\li120\ri119\lin120\rin119\fi0{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+will}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Closest}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Pair}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm.}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Since}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide-and-conquer}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+closest}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+pair}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+requires}{\expnd5\expndtw25\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorted}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+by}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+x-coordinate}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+y-coordinate,}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+also}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+need}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorting}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm.}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Both}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+these}{\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+parts are }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+worth}{\rtlch \ltrch\loch\loch\f5
+ 50% each.}{\expnd4\expndtw20\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+You}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+must implement}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ merge}{\rtlch \ltrch\loch\loch\f5
+ sort}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+or}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+quicksort, which runs in O(}{\i\rtlch \ltrch\loch\loch\f5
+n}{\rtlch \ltrch\loch\loch\f5
+ log }{\i\rtlch \ltrch\loch\loch\f5
+n}{\rtlch \ltrch\loch\loch\f5
+) time,}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and the}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ divide-}{\rtlch \ltrch\loch\loch\f5
+and-conquer}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+closest}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+pair}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm.}{\expnd5\expndtw29\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+For}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+example,}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+naive}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw3\i\ai\rtlch \ltrch\loch\loch\f5
+O}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+(}{\expnd0\expndtw2\i\ai\rtlch \ltrch\loch\loch\f5
+n}{{\*\updnprop10000}\up11\expnd0\expndtw3\afs16\rtlch \ltrch\loch\fs16\loch\f5
+2}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+)}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f10
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+version}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+closest}{\expnd4\expndtw21\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+pair}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm,}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your code will be timed out in the test, thus fail the test and get no credit. (Nevertheless, as we discuss in class, this na\u239\'efve algorithm is good for sanity checking to make sure your efficient algorithm is correct and indeed fast.)}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl276\slmult1\qj\li120\ri119\lin120\rin119\fi338\sb7\sa0{\rtlch \ltrch\loch\loch\f5
+Please}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+refer}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+lab}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+information}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+handout}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+see}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+how}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+checkout}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+submit}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+code.}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+The}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+provided}{\expnd6\expndtw30\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+code}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+contains}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+many}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+files}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+order}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+provide}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+auxiliary}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+functions,}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+but}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+not}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+have}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+change}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+any}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+files}{\expnd6\expndtw30\charscalex96\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+except}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+Sort.java}{\rtlch \ltrch\loch\loch\f5
+,}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+ClosestPair.java}{\rtlch \ltrch\loch\loch\f5
+.}{\expnd3\expndtw15\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+are}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+free}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+change}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+any}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+other}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+files}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+testing}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+code,}{\expnd5\expndtw25\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+but}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+autograder}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+will}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+ignore}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+all}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+changes}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+made}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+other}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+fi}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+les.}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+So}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+please}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+be}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sure}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+code}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+runs}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+without}{\expnd6\expndtw30\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+these}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+changes.}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Also,}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+as}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+always,}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+do}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+not}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+change}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+method}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+signatures}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+do}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+not}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+add}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+print}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+statements}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd4\expndtw22\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+code,}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+since}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+these}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+things}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+mess}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+up}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+autograder.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl276\slmult1\qj\li120\ri119\lin120\rin119\fi338\sb5\sa0{\rtlch \ltrch\loch\loch\f5
+In}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+addition,}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+there}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+an}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+autograder.txt}{\expnd-12\expndtw-64\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+file.}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Please}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+enter}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+an}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+email}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+address}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+nickname}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+respective}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+fields}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+so}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+we}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+send}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+email.}{\expnd10\expndtw51\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Please}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+enter}{\expnd4\expndtw20\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+information}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+even }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ have}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+previously}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sent}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+us}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+information,}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+since}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+we}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+are}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+planning}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+use}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+new}{\expnd6\expndtw30\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+information}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+discard}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+old}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+one.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-300\slmult0\li0\ri0\lin0\rin0\fi0\sb17\sa0\afs30\rtlch \ltrch\loch\fs30\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033{\listtext\pard\plain \loch\f6 2.1\tab}\ilvl1\ls3 \li1738\ri0\lin1738\rin0\fi-360\sl-300\slmult0\qj\tx1316\li658\ri0\lin658\rin0\fi-538\sb17\sa0{{\*\bkmkstart Implement Sorting (50%)}{\*\bkmkend Implement Sorting (50%)}\b\afs24\ab\rtlch \ltrch\loch\fs24\loch\f5
+Implement}{\expnd-2\expndtw-14\b\afs24\ab\rtlch \ltrch\loch\fs24\loch\f5
+ }{\b\afs24\ab\rtlch \ltrch\loch\fs24\loch\f5
+Sorting}{\expnd-2\expndtw-14\b\afs24\ab\rtlch \ltrch\loch\fs24\loch\f5
+ }{\b\afs24\ab\rtlch \ltrch\loch\fs24\loch\f5
+(50%)}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\li120\ri119\lin120\rin119\fi0\sb188\sa0{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+To}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+complete}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+section, you}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+must}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+either}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ merge }{\rtlch \ltrch\loch\loch\f5
+sort}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+or}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+quicksort.}{\expnd4\expndtw20\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+If}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ merge }{\rtlch \ltrch\loch\loch\f5
+sort}{\expnd4\expndtw23\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+or}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+quicksort}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+correctly,}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+will}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+get}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+full}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+credit.}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+For}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+partial}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+credit,}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+also}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+insertion}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sort.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl266\slmult1\qj\li119\ri119\lin119\rin119\fi338\sb1\sa0{\rtlch \ltrch\loch\loch\f5
+In}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+order}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+complete}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+section,}{\expnd5\expndtw25\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+please}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+look}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+Sort.java}{\rtlch \ltrch\loch\loch\f5
+,}{\expnd4\expndtw24\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+fill}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+mSort}{\expnd-11\expndtw-58\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+method.}{\expnd4\expndtw21\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+This}{\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+method}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+takes}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+as}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+an}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+array}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+A}{\expnd-17\expndtw-88\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+XYPoints}{\rtlch \ltrch\loch\loch\f5
+,}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+comparator}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+object.}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+Your}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+mSort}{\expnd-17\expndtw-87\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+code}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sort}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd4\expndtw23\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+array}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+A}{\rtlch \ltrch\loch\loch\f5
+.}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+create}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+temporary}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+arrays,}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+but}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+please}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+be}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sure}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+copy}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+back}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorted}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+array}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+into}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+A}{\rtlch \ltrch\loch\loch\f5
+.}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Please}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+do}{\expnd5\expndtw27\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+not}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+change}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+signatures}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+methods}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+have}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+been}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+provided.}{\expnd3\expndtw15\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+own }{\rtlch \ltrch\loch\loch\f5
+auxiliary}{\expnd5\expndtw29\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+methods,}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+but}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+be}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sure}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+put}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+then}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+Sort.java}{\rtlch \ltrch\loch\loch\f5
+,}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+since}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+autograder}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+ignore}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+them}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+otherwise.}
+\par \sect\sectd\sectunlocked1\pgwsxn12240\pghsxn15840\marglsxn1320\margrsxn200\margtsxn1400\margbsxn1720\footery1530\pgndec\sbkpage\footery1400{\footer\pard\plain \s28\tqc\tx4790\tqr\tx9580\noline\rtlch \ltrch\loch
+
+\par }\pard\plain \s2\ilvl1\outlinelevel1\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi-538\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs24\alang1033\ab\loch\f4\fs24\lang1033{\listtext\pard\plain \loch\f6 2.2\tab}\ilvl1\ls3 \li1738\ri119\lin1738\rin119\fi-360\sl266\slmult1\qj\tx1316\li658\ri119\lin658\rin119\fi338\sb1\sa120\ltrpar{{\*\bkmkstart Implement Closest Pair (50%)}{\*\bkmkend Implement Closest Pair (50%)}\rtlch \ltrch\loch\loch\f5
+Implement}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Closest}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Pair}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+(50%)}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl276\slmult1\qj\li120\ri1239\lin120\rin1239\fi0\sb188\sa0{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+To}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+complete}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+section,}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+must}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+closest}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+pair}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm.}{\expnd3\expndtw15\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide}{\expnd5\expndtw28\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+conquer}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw2\i\ai\rtlch \ltrch\loch\loch\f5
+O}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+(}{\expnd0\expndtw1\i\ai\rtlch \ltrch\loch\loch\f5
+n}{\expnd-5\expndtw-28\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+lg}{\expnd-6\expndtw-33\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+n}{\rtlch \ltrch\loch\loch\f5
+)}{\expnd-5\expndtw-29\rtlch \ltrch\loch\loch\f10
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+full}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+credit.}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+In}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+order}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-3\expndtw-15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+conquer}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm,}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+must}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+have}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorting}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+working.}{\expnd7\expndtw39\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+If}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+cannot}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+insertion}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sort,}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+merge}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sort,}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+or}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+quicksort,}{\expnd6\expndtw30\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+use}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+one}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+inbuilt}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorts}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+provided}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+by}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+Java,}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+or}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+simple}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sort}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+such}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+as}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+bubblesort.}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+If}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+choose}{\expnd6\expndtw31\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+do}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this,}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+will}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+still}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+get}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+credit}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+section,}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+but}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+will}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+not}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+get}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+any}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+credit}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+previous}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+section.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\li458\ri0\lin458\rin0\fi0\sb6\sa0{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd-4\expndtw-23\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+must}{\expnd-4\expndtw-22\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd-4\expndtw-22\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd-4\expndtw-22\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd-4\expndtw-22\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+within}{\expnd-4\expndtw-22\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-4\expndtw-23\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+java}{\expnd-4\expndtw-22\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+file}{\expnd-4\expndtw-22\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+ClosestPair.Java}{\expnd-19\expndtw-99\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-4\expndtw-22\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-4\expndtw-22\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+function}{\expnd-4\expndtw-23\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+findClosestPair}{\rtlch \ltrch\loch\loch\f5
+.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl268\slmult1\qj\li119\ri1239\lin119\rin1239\fi0\sb25\sa0{\rtlch \ltrch\loch\loch\f5
+The}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+function }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+takes}{\rtlch \ltrch\loch\loch\f5
+ as }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+arguments}{\rtlch \ltrch\loch\loch\f5
+ a set of }{\i\ai\rtlch \ltrch\loch\loch\f5
+n}{\expnd-1\expndtw-6\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points, }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+provided}{\rtlch \ltrch\loch\loch\f5
+ as }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+two}{\rtlch \ltrch\loch\loch\f5
+ sorted arrays.}{\expnd4\expndtw21\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+One }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+array,}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+pointsByX}{\rtlch \ltrch\loch\loch\f5
+,}{\expnd5\expndtw29\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+contains}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+points}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorted}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+nondecreasing}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+order}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+by}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+X-coordinate;}{\expnd4\expndtw23\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+other,}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+pointsByY}{\rtlch \ltrch\loch\loch\f5
+,}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+contains}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd5\expndtw28\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+same points}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorted by}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\expnd-5\expndtw-26\rtlch \ltrch\loch\loch\f5
+Y}{\rtlch \ltrch\loch\loch\f5
+-coordinate.}{\expnd4\expndtw24\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+G}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+i}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+v}{\rtlch \ltrch\loch\loch\f5
+en}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+these}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+lists,}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+find the}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+closest}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+pair of}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and return}{\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+them}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+Result}{\expnd-13\expndtw-66\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+class.}{\expnd10\expndtw52\rtlch \ltrch\loch\loch\f5
+ }{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+To}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+make}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+our}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+lives}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+easy}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+while}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+autograding,}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+Result}{\expnd-13\expndtw-67\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+object}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+con-}{\expnd4\expndtw22\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+tain the point with the}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+lowest}{\rtlch \ltrch\loch\loch\f5
+ X-coordinate}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+first;}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+two}{\rtlch \ltrch\loch\loch\f5
+ points}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+have}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+equal}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+X-coordinates,}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+then}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+it should}{\expnd4\expndtw24\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+contain}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+point}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+with}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+l}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+o}{\rtlch \ltrch\loch\loch\f5
+west}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\expnd-5\expndtw-26\rtlch \ltrch\loch\loch\f5
+Y}{\rtlch \ltrch\loch\loch\f5
+-coordinate}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+first.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li119\ri1239\lin119\rin1239\fi338\sb13\sa0{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Again,}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+write}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+more}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+methods}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+wish,}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+but}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+do}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+not}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+delete}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+or}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+change}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+signatures}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+any}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd5\expndtw28\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+provided}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+methods.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-160\slmult0\li0\ri0\lin0\rin0\fi0\sb6\sa0\afs16\rtlch \ltrch\loch\fs16\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-220\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s1\ilvl0\outlinelevel0\ql\nowidctlpar\faauto\li550\ri0\lin550\rin0\fi-430\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs28\alang1033\ab\loch\f4\fs28\lang1033{\listtext\pard\plain \loch\f6 3\tab}\ilvl0\ls2 \li720\ri0\lin720\rin0\fi-360\sl-220\slmult0\qj\tx551\li0\ri0\lin0\rin0\fi-430{{\*\bkmkstart Implementation and Testing}{\*\bkmkend Implementation and Testing}\rtlch \ltrch\loch\loch\f5
+Implementation}{\expnd6\expndtw33\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd6\expndtw34\rtlch \ltrch\loch\loch\f5
+ }{\expnd-5\expndtw-27\rtlch \ltrch\loch\loch\f5
+T}{\rtlch \ltrch\loch\loch\f5
+esting}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-250\slmult0\li0\ri0\lin0\rin0\fi0\sb8\sa0\afs25\rtlch \ltrch\loch\fs25\loch\f5
+
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl268\slmult1\qj\li119\ri1239\lin119\rin1239\fi0{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+We}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+expect}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+test}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+implementation\u8217\'19s}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+correctness.}{\expnd5\expndtw28\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+It}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+not}{\expnd1\expndtw5\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+suf}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ficient}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+just}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+produce}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+code}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+runs}{\expnd4\expndtw21\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+without}{\expnd-3\expndtw-19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+crashing!}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd-3\expndtw-18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd-3\expndtw-19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+test}{\expnd-3\expndtw-18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd-3\expndtw-19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+code}{\expnd-3\expndtw-19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+using}{\expnd-3\expndtw-18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+either}{\expnd-3\expndtw-19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-3\expndtw-18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input/output}{\expnd-3\expndtw-19\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+framework}{\expnd-3\expndtw-19\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+provided}{\expnd-3\expndtw-18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+by}{\expnd-3\expndtw-19\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+Lab1.java}{\expnd5\expndtw25\dbch\af17\charscalex99\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+or}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+by}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+using}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+JUnitTest}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+framework.}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+We}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+have}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+provided}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+some}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+tests}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+TestLab1.java}{\expnd-16\expndtw-82\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+but}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+feel}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+free}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+write}{\expnd4\expndtw23\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+more}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+own.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li119\ri1239\lin119\rin1239\fi338\sb14\sa0{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+For}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+these}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+tests,}{\expnd3\expndtw17\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+try}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+think}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+cases}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+when}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithms}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+fail.}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+For}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+example,}{\expnd3\expndtw17\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+test}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+see}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd4\expndtw21\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sort}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+works}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+correctly}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+when}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+elements}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+are}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+equal.}{\expnd1\expndtw7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+For}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+closest}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+pair}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm,}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+even}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+though}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+it}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+not}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+required,}{\expnd5\expndtw27\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+we}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+recommend}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+immediately}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+test}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+naive}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm,}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+which}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+shouldn\u8217\'19t}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+take}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+very}{\expnd5\expndtw27\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+long.}{\expnd6\expndtw32\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+then}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+use}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implementation}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+test}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+conquer}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+implementation\u8217\'19s}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+correctness}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+.}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Start}{\expnd5\expndtw28\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+by}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+testing}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and,}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+necessary,}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+debugging}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+with}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+small}{\expnd1\expndtw7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+examples.}{\expnd8\expndtw40\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+At}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+each}{\expnd1\expndtw7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+step}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+execution,}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+think}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+about}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+what}{\expnd6\expndtw33\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should be happening,}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and check whether}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the code}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+behaves}{\rtlch \ltrch\loch\loch\f5
+ as you}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+expect.}{\expnd4\expndtw24\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+For}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+example,}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+make}{\rtlch \ltrch\loch\loch\f5
+ sure}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that the}{\expnd6\expndtw31\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+X-ordered}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd-5\expndtw-26\rtlch \ltrch\loch\loch\f5
+Y}{\rtlch \ltrch\loch\loch\f5
+-ordered}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+arrays}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+passed}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+g}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+i}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+v}{\rtlch \ltrch\loch\loch\f5
+en}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+recurs}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+i}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+v}{\rtlch \ltrch\loch\loch\f5
+e}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+call}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+contain}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+same}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+s}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+e}{\rtlch \ltrch\loch\loch\f5
+ts}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points.}{\expnd5\expndtw27\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Finall}{\expnd-3\expndtw-16\rtlch \ltrch\loch\loch\f5
+y}{\rtlch \ltrch\loch\loch\f5
+,}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+it}{\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+be}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+easier}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+first}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+produce}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+an}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implementation}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+just}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+finds}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+distance}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+between}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+closest}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+pair,}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+then}{\expnd4\expndtw21\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+modify}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+it}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+find}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+as}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+well. For testing purpose, you may randomly generate and test your program(s) on a large number of instances with different problem sizes. It is strongly suggested that you plot and compare the running time of your efficient algorithm and na\u239\'efve algorithm to see the power of good algorithm design and implementation \u8211\'13 seeing is believing, so do it for your own benefit! More info below.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-300\slmult0\li0\ri0\lin0\rin0\fi0\sb11\sa0\afs30\rtlch \ltrch\loch\fs30\loch\f5
+
+\par \pard\plain \s2\ilvl1\outlinelevel1\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi-538\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs24\alang1033\ab\loch\f4\fs24\lang1033{\listtext\pard\plain \loch\f6 3.1\tab}\ilvl1\ls2 \li1738\ri0\lin1738\rin0\fi-360\sl-300\slmult0\qj\tx1316\li658\ri0\lin658\rin0\fi-538\sb11\sa120{{\*\bkmkstart Notes and Advice on the Implementation}{\*\bkmkend Notes and Advice on the Implementation}\rtlch \ltrch\loch\loch\f5
+Notes}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Advice}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Implementation}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl276\slmult1\qj\li119\ri1239\lin119\rin1239\fi0\sb188\sa0{\expnd-1\expndtw-7\b\ab\rtlch \ltrch\loch\loch\f5
+Very}{\expnd2\expndtw13\b\ab\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\b\ab\rtlch \ltrch\loch\loch\f5
+Important}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+:}{\expnd8\expndtw43\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+provided}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+code}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+assigns}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+globally}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+unique}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sequential}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+index}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+each}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+point}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+at}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time}{\expnd6\expndtw33\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+it}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+created.}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Even}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+with}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+identical}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+coordinates}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+(which}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+occur}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+would}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+make}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+good}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+test}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+case)}{\expnd4\expndtw24\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+will}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+have}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+different}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+indices.}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+The}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Point}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+class}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+includes}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+method}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+isLeftOf()}{\expnd-17\expndtw-87\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implements}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+following}{\expnd6\expndtw30\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+predicate:}
+\par \sect\sectd\sectunlocked1\pgwsxn12240\pghsxn15840\marglsxn1320\margrsxn200\margtsxn1400\margbsxn1720\footery1530\pgndec\sbkpage\footery1400{\footer\pard\plain \s28\tqc\tx4790\tqr\tx9580\noline\rtlch \ltrch\loch
+
+\par }\pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl261\slmult1\li645\ri0\lin645\rin0\fi0\sb33\sa0{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+Given}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+p}{\expnd2\expndtw12\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw3\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+q}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+,}{\expnd5\expndtw25\rtlch \ltrch\loch\loch\f5
+ }{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+p}{\expnd2\expndtw12\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+isLeftOf}{\expnd-11\expndtw-58\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+q}{\expnd3\expndtw19\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-5\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+p}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+\u8217\'19s}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+X-coordinate}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+less}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+than}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd3\expndtw18\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw3\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+q}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+,}{\expnd5\expndtw25\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+or}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd3\expndtw19\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+their}{\expnd4\expndtw22\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+X-coordinates}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+are}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+equal}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+and}{\expnd0\expndtw-4\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+p}{\expnd-3\expndtw-15\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+ }{\rtlch \ltrch\loch\loch\f5
+has}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+lower}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+index}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+than}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw3\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+q}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl261\slmult1\qj\li100\ri119\lin100\rin119\fi0\sb186\sa0{\rtlch \ltrch\loch\loch\f5
+The}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+X-ordered}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+array}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+is}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+fact}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorted}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+so}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+p}{\expnd-2\expndtw-13\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+isLeftOf}{\expnd-16\expndtw-82\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\expnd0\expndtw3\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+q}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+,}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+p}{\expnd-2\expndtw-12\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+ }{\rtlch \ltrch\loch\loch\f5
+occurs}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+before}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+q}{\expnd-1\expndtw-6\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+(even}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+p.x}{\expnd-1\expndtw-5\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+ }{\rtlch \ltrch\loch\loch\f10
+=}{\expnd-2\expndtw-14\rtlch \ltrch\loch\loch\f10
+ }{\expnd0\expndtw1\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+q}{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+.x}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+).}{\expnd5\expndtw25\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+will}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+find}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+property}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+isLeftOf}{\expnd-13\expndtw-65\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+predicate}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+useful}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implementation:}{\expnd8\expndtw42\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+split}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl-230\slmult0\qj{\dbch\af17\rtlch \ltrch\loch\loch\f11
+pointsByX}{\expnd-13\expndtw-68\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+array}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+at}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+given}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+point}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw3\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+p}{{\*\updnprop10000}\up11\expnd0\expndtw3\i\afs16\ai\rtlch \ltrch\loch\fs16\loch\f12
+\u8727\'17}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+,}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+rapidly}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+identify}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+all}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+q}{\expnd2\expndtw10\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+pointsByY}{\expnd-13\expndtw-68\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+such}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+q}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl-342\slmult0\qj{\dbch\af17\rtlch \ltrch\loch\loch\f11
+isLeftOf}{\expnd-13\expndtw-69\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\expnd0\expndtw3\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+p}{{\*\updnprop10000}\up11\expnd0\expndtw3\i\afs16\ai\rtlch \ltrch\loch\fs16\loch\f12
+\u8727\'17}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+,}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+regardless}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+how}{\expnd1\expndtw7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+many}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+share}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+same}{\expnd1\expndtw7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+X-coordinate}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+as}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw3\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+p}{{\*\updnprop10000}\up11\expnd0\expndtw3\i\afs16\ai\rtlch \ltrch\loch\fs16\loch\f12
+\u8727\'17}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+.}{\expnd9\expndtw48\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+If}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd1\expndtw7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+don\u8217\'19t}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+see}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+why}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\qj\sb26\sa0{\dbch\af17\rtlch \ltrch\loch\loch\f11
+isLeftOf}{\expnd-16\expndtw-84\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\rtlch \ltrch\loch\loch\f5
+matters}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+even}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+after}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+trying}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm,}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+please}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+come}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+talk}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ TAs.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li100\ri119\lin100\rin119\fi338\sb26\sa0{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+We}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+expect}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+use}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+good}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+coding}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+style}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+writing}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implementation.}{\expnd5\expndtw29\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+It}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+be}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+easy}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+read}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd5\expndtw25\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+well}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+commented}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+not}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+commit}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+egregious}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+abuses}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+memory,}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+pointers,}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+type}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+safety,}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+so}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+forth.}{\expnd5\expndtw29\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Correct}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+but}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+poorly-styled}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implementations}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+will}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+lose}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-300\slmult0\li0\ri0\lin0\rin0\fi0\sb11\sa0\afs30\rtlch \ltrch\loch\fs30\loch\f5
+
+\par \pard\plain \s2\ilvl1\outlinelevel1\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi-538\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs24\alang1033\ab\loch\f4\fs24\lang1033{\listtext\pard\plain \loch\f6 3.2\tab}\ilvl1\ls2 \li1718\ri0\lin1718\rin0\fi-360\sl-300\slmult0\qj\tx1276\li638\ri0\lin638\rin0\fi-538\sb11\sa120{{\*\bkmkstart Notes on the Provided Code}{\*\bkmkend Notes on the Provided Code}\rtlch \ltrch\loch\loch\f5
+Notes}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Provided}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Code}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li100\ri119\lin100\rin119\fi0\sb188\sa0{\rtlch \ltrch\loch\loch\f5
+The}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+wrapper}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+programs}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+include}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+ability}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+read}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+list}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+from}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+file}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+with}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+following}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+format.}{\expnd3\expndtw15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+The}{\expnd4\expndtw23\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+first}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+line}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+file}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+contains}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+number}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+read.}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Each}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+subsequent}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+line}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+contains}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+single}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+point\u8217\'19s}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+X-}{\expnd4\expndtw22\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd-5\expndtw-26\rtlch \ltrch\loch\loch\f5
+Y}{\rtlch \ltrch\loch\loch\f5
+-coordinates.}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+F}{\rtlch \ltrch\loch\loch\f5
+or}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+e}{\rtlch \ltrch\loch\loch\f5
+xample,}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ v}{\rtlch \ltrch\loch\loch\f5
+alid}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+file}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+w}{\rtlch \ltrch\loch\loch\f5
+ould}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+be}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-200\slmult0\li0\ri0\lin0\rin0\fi0\sb3\sa0\afs20\rtlch \ltrch\loch\fs20\loch\f5
+
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\qj{\dbch\af17\rtlch \ltrch\loch\loch\f11
+3}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\qj\sb49\sa0{\dbch\af17\rtlch \ltrch\loch\loch\f11
+120}{\expnd-2\expndtw-10\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+250}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\qj\sb49\sa0{\dbch\af17\rtlch \ltrch\loch\loch\f11
+41}{\expnd-1\expndtw-8\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+39}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\qj\sb49\sa0{\dbch\af17\rtlch \ltrch\loch\loch\f11
+34}{\expnd-1\expndtw-9\dbch\af17\rtlch \ltrch\loch\loch\f11
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+969}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-200\slmult0\li0\ri0\lin0\rin0\fi0\sb6\sa0\afs20\rtlch \ltrch\loch\fs20\loch\f5
+
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl271\slmult1\qj\li100\ri119\lin100\rin119\fi0{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+use}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+file-reading}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+facility}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+read}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+test}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+cases,}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+debug}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+with}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+other}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+small}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+examples}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd6\expndtw30\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+own}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+choosing.}{\expnd8\expndtw42\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+The}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+point}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+reading}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+function}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+PointReader.readXYPoints}{\rtlch \ltrch\loch\loch\f5
+,}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+which}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+takes}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+filename}{\expnd4\expndtw22\charscalex97\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+returns}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+an}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+array}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\dbch\af17\rtlch \ltrch\loch\loch\f11
+XYPoint}{\rtlch \ltrch\loch\loch\f5
+s.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li100\ri119\lin100\rin119\fi338{\rtlch \ltrch\loch\loch\f5
+The}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+wrapper}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+program}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+takes}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+zero,}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+one,}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+or}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+two}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+arguments.}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+The}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+first}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+argument}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+name}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\i\ai\rtlch \ltrch\loch\loch\f5
+transcript}{\expnd7\expndtw37\i\ai\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+file}{\expnd2\expndtw12\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+will}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+contain}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+copy}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+everything}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+written}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+terminal}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+during}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+program}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+execution.}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+The}{\expnd2\expndtw13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+second}{\expnd4\expndtw24\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+argument,}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+if}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+present,}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+assumed}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+be}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+name}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+fil}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+e}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+with}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+list}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+as}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+described}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+above.}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+If}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+no}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+second}{\expnd5\expndtw25\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+argument}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+given,}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+user}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+must}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+enter}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+number}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+generate,}{\expnd1\expndtw7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+those}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+points}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+are}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+generated}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+at}{\expnd4\expndtw23\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+random.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-160\slmult0\li0\ri0\lin0\rin0\fi0\sb6\sa0\afs16\rtlch \ltrch\loch\fs16\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-220\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s1\ilvl0\outlinelevel0\ql\nowidctlpar\faauto\li550\ri0\lin550\rin0\fi-430\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs28\alang1033\ab\loch\f4\fs28\lang1033{\listtext\pard\plain \loch\f6 4\tab}\ilvl0\ls2 \li1250\ri0\lin1250\rin0\fi-360\sl-220\slmult0\qj\tx1061\li530\ri0\lin530\rin0\fi-430{{\*\bkmkstart Just for Fun}{\*\bkmkend Just for Fun}\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+Just}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+for}{\expnd2\expndtw14\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Fun}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-250\slmult0\li0\ri0\lin0\rin0\fi0\sb8\sa0\afs25\rtlch \ltrch\loch\fs25\loch\f5
+
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li100\ri119\lin100\rin119\fi0{\rtlch \ltrch\loch\loch\f5
+If}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+wish}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to,}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+do}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+following}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+studies}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+gain}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+more}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+insight}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+into}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implementation}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+increase}{\expnd4\expndtw24\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+understanding}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithms.}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+If}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+do}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+any}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+following}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+projects,}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+come}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+show}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a TA or me}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+work}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd5\expndtw29\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+fice}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+hours}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+brownie}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-300\slmult0\li0\ri0\lin0\rin0\fi0\sb11\sa0\afs30\rtlch \ltrch\loch\fs30\loch\f5
+
+\par \pard\plain \s2\ilvl1\outlinelevel1\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi-538\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs24\alang1033\ab\loch\f4\fs24\lang1033{\listtext\pard\plain \loch\f6 4.1\tab}\ilvl1\ls2 \li1718\ri0\lin1718\rin0\fi-360\sl-300\slmult0\qj\tx1276\li638\ri0\lin638\rin0\fi-538\sb11\sa120{{\*\bkmkstart Timing your algorithm}{\*\bkmkend Timing your algorithm}\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Timing}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+your}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li100\ri119\lin100\rin119\fi0\sb188\sa0{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+enjoy}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+seeing}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+how}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+fast}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+runs}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+various}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sizes.}{\expnd5\expndtw27\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+In}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+order}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+do}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+so,}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+plot}{\expnd5\expndtw25\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+performance}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithms}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+graph.}{\expnd3\expndtw17\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+The}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+x-axis}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+graph}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ show }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+size}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd4\expndtw22\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+y-axis}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+show}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+running}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time.}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+The}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+provided}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+code}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+allows}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithms.}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Does}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+plot}
+\par \sect\sectd\sectunlocked1\pgwsxn12240\pghsxn15840\marglsxn1320\margrsxn200\margtsxn1400\margbsxn1720\footery1530\pgndec\sbkpage\footery1400{\footer\pard\plain \s28\tqc\tx4790\tqr\tx9580\noline\rtlch \ltrch\loch
+
+\par }\pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl278\slmult1\qj\li100\ri120\lin100\rin120\fi0\sb19\sa0{\rtlch \ltrch\loch\loch\f5
+line}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+look}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+like}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+an}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+cn}{\expnd-5\expndtw-28\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+log}{\expnd-6\expndtw-33\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+n}{\expnd-3\expndtw-17\i\dbch\af19\ai\rtlch \ltrch\loch\loch\f12
+ }{\rtlch \ltrch\loch\loch\f5
+line?}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+wish}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+curve}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+fit}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+line}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+see}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+how}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+close}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+practical}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+performance}{\expnd4\expndtw23\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+comes}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+theoretical}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+performance.}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li100\ri119\lin100\rin119\fi338\sb3\sa0{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd3\expndtw15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+should}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+also}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+note}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd3\expndtw15\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+\u8220\'1cthe}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+running}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd3\expndtw15\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+A}{\expnd2\expndtw10\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+inputs}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+size}{\expnd3\expndtw15\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+n}{\rtlch \ltrch\loch\loch\f5
+\u8221\'1d}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+not}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+well-defined,}{\expnd4\expndtw20\charscalex98\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+since}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+not}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+all}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+inputs}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+will}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+take}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+an}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+identical}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+amount}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+process}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide-and-conquer}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm.}{\expnd6\expndtw31\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+One}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+could}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+ask,}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+how}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+much}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+variation}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+there}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+some}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+distribution}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+random}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+inputs}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+A}{\rtlch \ltrch\loch\loch\f5
+?}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+To}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+answer}{\expnd4\expndtw23\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+question}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+our}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+random}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+generator,}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+at}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+least}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+1000}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+randomly}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+generated}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+inputs}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+each}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+size}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd4\expndtw21\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+take}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+average}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+previous}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+plot.}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+You}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+also}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+enjoy}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+plotting}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+variations}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+see}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+how}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+much}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd5\expndtw29\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+algorithm\u8217\'19s}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+running}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+varies}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+same}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+size.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-300\slmult0\li0\ri0\lin0\rin0\fi0\sb11\sa0\afs30\rtlch \ltrch\loch\fs30\loch\f5
+
+\par \pard\plain \s2\ilvl1\outlinelevel1\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi-538\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs24\alang1033\ab\loch\f4\fs24\lang1033{\listtext\pard\plain \loch\f6 4.2\tab}\ilvl1\ls2 \li1718\ri0\lin1718\rin0\fi-360\sl-300\slmult0\qj\tx1276\li638\ri0\lin638\rin0\fi-538\sb11\sa120{{\*\bkmkstart Comparing the naive and divide-and-conqu}{\*\bkmkend Comparing the naive and divide-and-conqu}\rtlch \ltrch\loch\loch\f5
+Comparing}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+naive}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide-and-conquer}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+approaches}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li100\ri119\lin100\rin119\fi0\sb188\sa0{\rtlch \ltrch\loch\loch\f5
+If}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implemented}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+both}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+naive}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide-and-conquer}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+versions}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+closest}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+pair}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm,}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd6\expndtw31\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+compare}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+their}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+performance}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+plot}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+it}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+graph.}{\expnd7\expndtw36\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+There\u8217\'19s}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+good}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+chance}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that,}{\expnd1\expndtw7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+suf}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ficient}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ly}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+small}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd5\expndtw27\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sizes,}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+naive}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+actually}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+run}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+faster}{\expnd-1\expndtw-8\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+than}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide-and-conquer}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+algorithm.}{\expnd0\expndtw3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Using}{\expnd-2\expndtw-13\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+imple-}{\expnd8\expndtw43\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+mentations,}{\expnd0\expndtw2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+estimate}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+as best}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you can}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+\u8220\'1ccrossover\u8221\'1d}{\rtlch \ltrch\loch\loch\f5
+ input size}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+where}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide-and-conquer}{\expnd0\expndtw1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+method first}{\expnd6\expndtw31\charscalex95\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+starts}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+consistently}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+outperform}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+naive}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm.}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+At}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+each}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+size}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+test,}{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+should}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+average}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+times}{\expnd4\expndtw21\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+over}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+at}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+least}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+1000}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+random}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+inputs}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+reduce}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+uncertainty}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+running}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+due}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+system}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+variation.}{\expnd5\expndtw25\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+Note}{\rtlch \ltrch\loch\loch\f5
+:}{\expnd3\expndtw16\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Look}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for the}{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+size at which}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+divide-and-conquer}{\rtlch \ltrch\loch\loch\f5
+ algorithm}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+starts to}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ win}{\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+consistently}{\expnd0\expndtw-1\i\ai\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+continues}{\expnd5\expndtw28\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+do}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+so}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for all}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ larger }{\rtlch \ltrch\loch\loch\f5
+sizes.}{\expnd4\expndtw20\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Don\u8217\'19t}{\rtlch \ltrch\loch\loch\f5
+ just}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+look}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+at}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ very}{\rtlch \ltrch\loch\loch\f5
+ small}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sizes, as }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+small variations }{\rtlch \ltrch\loch\loch\f5
+in the}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+could}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+cause}{\expnd4\expndtw23\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+either}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+win}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+at}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+these}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sizes.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-300\slmult0\li0\ri0\lin0\rin0\fi0\sb11\sa0\afs30\rtlch \ltrch\loch\fs30\loch\f5
+
+\par \pard\plain \s2\ilvl1\outlinelevel1\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi-538\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs24\alang1033\ab\loch\f4\fs24\lang1033{\listtext\pard\plain \loch\f6 4.3\tab}\ilvl1\ls2 \li1718\ri0\lin1718\rin0\fi-360\sl-300\slmult0\qj\tx1276\li638\ri0\lin638\rin0\fi-538\sb11\sa120{{\*\bkmkstart Timing your sorting algorithms}{\*\bkmkend Timing your sorting algorithms}\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Timing}{\expnd-2\expndtw-12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+your}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorting}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithms}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\qj\sb188\sa0{\rtlch \ltrch\loch\loch\f5
+If}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implement}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+more}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+than}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+one}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorting}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm,}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+them}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+in}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+similar}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+manner.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-130\slmult0\li0\ri0\lin0\rin0\fi0\sb4\sa0\afs13\rtlch \ltrch\loch\fs13\loch\f5
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af13\langfe2052\dbch\af14\afs24\alang1081\loch\f3\fs24\lang1033\sl-220\slmult0\li0\ri0\lin0\rin0\fi0\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s2\ilvl1\outlinelevel1\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi-538\sb240\sa120\keepn\b\dbch\af13\langfe1033\dbch\af16\afs24\alang1033\ab\loch\f4\fs24\lang1033{\listtext\pard\plain \loch\f6 4.4\tab}\ilvl1\ls2 \li1718\ri0\lin1718\rin0\fi-360\sl-220\slmult0\qj\tx1276\li638\ri0\lin638\rin0\fi-538{{\*\bkmkstart Tweaking the Naive Algorithm}{\*\bkmkend Tweaking the Naive Algorithm}\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+Tweaking}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+Naive}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Algorithm}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li100\ri119\lin100\rin119\fi0\sb188\sa0{\rtlch \ltrch\loch\loch\f5
+The}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+main}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+reason}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+performance}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+naive}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+varies}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+inputs}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+same}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+size}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd4\expndtw21\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+minimum}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+distance}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+may}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+be}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+updated}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+variable}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+number}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+times.}{\expnd9\expndtw48\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Devise}{\expnd1\expndtw8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+method}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+producing}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+inputs}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd5\expndtw27\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+any}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+size}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+which}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+minimum}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+distance}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+is}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+only}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+ever}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+updated}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+once.}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Measure}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+how}{\expnd0\expndtw-4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+performance}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+your}{\expnd5\expndtw25\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+implementation}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+random}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+inputs}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+compares}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+its}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+performance}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+this}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+\u8220\'1cbest}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-3\rtlch \ltrch\loch\loch\f5
+case.\u8221\'1d}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+(Note:}{\expnd1\expndtw9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+use}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+an}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd-1\expndtw-5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+size}{\expnd4\expndtw22\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+large}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+enough}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+require}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+at}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+least}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+minute}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+when}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+measuring}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+running}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time,}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+and}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+average}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+over}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+multiple}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+runs}{\expnd0\expndtw4\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd5\expndtw27\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+factor}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+out}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+external}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sources}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-1\expndtw-7\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+variation.)}
+\par \pard\plain \s22\ql\nowidctlpar\faauto\li100\ri0\lin100\rin0\fi0\langfe1033\dbch\af16\afs22\alang1033\fs22\lang1033\sl280\slmult1\qj\li100\ri119\lin100\rin119\fi338\sb1\sa0{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+Now}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+consider}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+heuristic}{\expnd2\expndtw12\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+modifica}{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+tions}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+to}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+naive}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+algorithm}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+could}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+make}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+it}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+run}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+faster}{\expnd2\expndtw10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd2\expndtw11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+random}{\expnd6\expndtw33\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+inputs.}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+For}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+example,}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+what}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+can}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+do}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+if}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+know}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+that}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+points}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+are}{\expnd-2\expndtw-10\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sorted}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+by}{\expnd-2\expndtw-11\rtlch \ltrch\loch\loch\f5
+ }{\i\ai\rtlch \ltrch\loch\loch\f5
+x}{\rtlch \ltrch\loch\loch\f5
+-coordinate?}{\expnd1\expndtw6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+Measure}{\expnd6\expndtw30\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+impact}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+such}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+change}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+on}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+the}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+average}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+running}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+time,}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+again}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+large}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+input}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+sizes.}{\expnd1\expndtw5\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+Make}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+sure}{\expnd-1\expndtw-9\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+you}{\expnd-1\expndtw-8\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+average}{\expnd8\expndtw41\charscalex99\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-2\rtlch \ltrch\loch\loch\f5
+over}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+a}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+large}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+number}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+of}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\expnd0\expndtw-1\rtlch \ltrch\loch\loch\f5
+different}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+inputs}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+for}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+each}{\expnd-1\expndtw-6\rtlch \ltrch\loch\loch\f5
+ }{\rtlch \ltrch\loch\loch\f5
+method.}
+\par }

@@ -1,0 +1,44 @@
+Name(s): Leo Bremer & John Emmons
+
+Table 1. Valgrind Results.
+Number of instructions executed:
+			-O0		-O1		-02		-O3
+compute_totals		7510		3209		3110		1307
+compute_grades		6681		1200		1172		1172
+compute_histogram	6654		2656		2555		2554
+PROGRAM TOTALS		20845		7065		6837		5033
+
+Question 1. Name one other thing besides instruction counts that
+valgrind could tell you about your code (if you were to run it with
+different flags):
+
+Valgrind could also tell us about the cache miss rate of our program by using the cachegrind tool!
+
+Table 2. Gprof Results.
+Percentage of where your un-optimized code spends its time:
+compute_totals	    	 11%
+compute_grades		 16%
+compute_histogram	 73%
+
+Question 2. Which function will you improve and why?
+
+Go improve your code.
+
+Question 3. Describe your improvement in 1-2 sentences:
+
+Table 3. Valgrind Results.
+Number of instructions executed post programmer optimization:
+       	  	       optimized
+compute_totals	       
+compute_grades	       
+compute_histogram      
+PROGRAM TOTALS
+
+Table 4. Gprof Results.
+Percentage of where your optimized code spends its time:
+compute_totals	    	 16% 
+compute_grades		 23%
+compute_histogram	 61%
+
+Question 4. Now which function would you try to improve and why?
+

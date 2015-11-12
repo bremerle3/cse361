@@ -1,0 +1,43 @@
+Name(s):
+
+Table 1. Valgrind Results.
+Number of instructions executed:
+			-O0		-O1		-02		-O3
+compute_totals			      	       		 
+compute_grades	
+compute_histogram	
+PROGRAM TOTALS
+
+Question 1. Name one other thing besides instruction counts that
+valgrind could tell you about your code (if you were to run it with
+different flags):
+
+
+Table 2. Gprof Results.
+Percentage of where your un-optimized code spends its time:
+compute_totals	    	 xx%			      	       		 
+compute_grades		 xx%
+compute_histogram	 xx%
+
+Question 2. Which function will you improve and why?
+
+Go improve your code.
+
+Question 3. Describe your improvement in 1-2 sentences:
+
+Table 3. Valgrind Results.
+Number of instructions executed post programmer optimization:
+       	  	       optimized
+compute_totals	       
+compute_grades	       
+compute_histogram      
+PROGRAM TOTALS
+
+Table 4. Gprof Results.
+Percentage of where your optimized code spends its time:
+compute_totals	    	 xx%			      	       		 
+compute_grades		 xx%
+compute_histogram	 xx%
+
+Question 4. Now which function would you try to improve and why?
+
